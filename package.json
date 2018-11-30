@@ -6,6 +6,9 @@
   "repository": "https://github.com/dallverk/molecule.js.git",
   "author": "v-kulievichius <v.kulievichius@adform.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "node src/test.js"
+  },
   "dependencies": {
     "react": "^16.6.3"
   }
