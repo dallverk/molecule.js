@@ -1,0 +1,12 @@
+{
+  "name": "molecule.js",
+  "version": "1.0.0",
+  "description": "React UI library",
+  "main": "src/index.js",
+  "repository": "https://github.com/dallverk/molecule.js.git",
+  "author": "v-kulievichius <v.kulievichius@adform.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.3"
+  }
+}

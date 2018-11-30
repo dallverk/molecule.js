@@ -1,2 +1,2 @@
 # molecule.js
-UI library
+React UI library
