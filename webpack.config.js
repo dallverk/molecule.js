@@ -1,16 +1,15 @@
-const webpack = require('webpack'); //to access built-in plugins
-const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        use: 'babel-loader'
-      }
-    ]
+        use: 'babel-loader',
+      },
+    ],
   },
   plugins: [
     new webpack.ProgressPlugin(),
-  ]
+  ],
 };

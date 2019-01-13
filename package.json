@@ -8,12 +8,14 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode development",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext=js,jsx"
   },
   "dependencies": {
     "apollo-boost": "^0.1.23",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-apollo": "^2.3.3",
     "react-test-renderer": "^16.7.0"
@@ -28,6 +30,11 @@
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.5",
     "babel-plugin-lodash": "^3.3.4",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
     "jest": "^23.6.0",
     "regenerator-runtime": "^0.13.1",
     "webpack": "^4.28.1",

@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 
@@ -17,13 +18,20 @@ export const Dog = ({ name }) => (
   <Query query={GET_DOG_QUERY} variables={{ name }}>
     {({ loading, error, data }) => {
       if (loading) return 'Loading...';
-      if (error) return `Error!`;
+      if (error) return 'Error!';
 
       return (
         <p>
-          {data.dog.name} is a {data.dog.breed}
+          {data.dog.name}
+          {' '}
+is a
+          {data.dog.breed}
         </p>
       );
     }}
   </Query>
 );
+
+Dog.propTypes = {
+  name: string.isRequired,
+};
