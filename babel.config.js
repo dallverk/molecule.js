@@ -1,19 +1,19 @@
 const presets = [
   [
-    "@babel/env",
+    '@babel/env',
     {
-      targets: "> 0.25%, not dead",
-      useBuiltIns: "usage",
+      targets: '> 0.25%, not dead',
+      useBuiltIns: 'usage',
     },
   ],
   [
-    "@babel/preset-react", 
-    { 
-      "development": true 
-    }
+    '@babel/preset-react',
+    {
+      development: true,
+    },
   ],
 ];
 
-const plugins = ["lodash"];
+const plugins = ['lodash'];
 // edit master
 module.exports = { presets, plugins };
