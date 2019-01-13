@@ -15,5 +15,5 @@ const presets = [
 ];
 
 const plugins = ["lodash"];
-
+// edit master
 module.exports = { presets, plugins };
