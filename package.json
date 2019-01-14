@@ -9,7 +9,7 @@
   "scripts": {
     "build": "webpack --mode development",
     "test": "jest",
-    "lint": "eslint . --ext=js,jsx src"
+    "lint": "eslint src --ext=js,jsx"
   },
   "dependencies": {
     "apollo-boost": "^0.1.23",
