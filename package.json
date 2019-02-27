@@ -12,7 +12,7 @@
     "lint": "eslint . --ext=js,jsx"
   },
   "dependencies": {
-    "apollo-boost": "^0.1.23",
+    "apollo-boost": "^0.3.1",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
     "prop-types": "^15.6.2",
